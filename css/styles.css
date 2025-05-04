@@ -1,0 +1,171 @@
+    /*general styles*/
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    body {
+        font-family: "Pixelify Sans", monospace;
+        color: white;
+        /* Classic neon green for a retro gaming feel */
+        background-color: #000;
+        text-align: center;
+        background-image: url('/img/background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100vh;
+        margin: 0% 15% 0% 15%;
+        padding: 0% 5% 0% 5%;
+        align-content: center;
+        justify-content: center;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        font-size: x-large;
+    }
+
+    h2,
+    h3 {
+        font-size: large;
+    }
+
+    #main-content,
+    footer,
+    p,
+    h4 {
+        font-size: large;
+    }
+
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Press Start 2P", sans-serif;
+        color: #FFF600;
+        /* Arcade-style yellow */
+        font-weight: normal;
+    }
+
+
+
+
+    .pixel-text {
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 18px;
+        color: #ffffff;
+    }
+
+    .glow-effect {
+        text-shadow: 0px 0px 10px #ff00ff, 0px 0px 20px #ff00ff;
+    }
+
+    /* Ensure images scale properly */
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Links styling */
+    a {
+        color: inherit;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    header h1 {
+        margin: 0%;
+    }
+
+    header{
+        margin-top:0px !important;
+    }
+
+    header,
+    footer,
+    #main-content {
+        background-color: rgba(42, 59, 110, 0.7);
+        display: block;
+        padding: 1rem;
+        border: #000 solid 2px;
+        border-radius: 10px;
+        margin: 1.5rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+   
+    header img{
+        float:left;
+        margin-right: 1rem;
+        vertical-align: middle;
+    }
+
+
+  
+    nav ul {
+        list-style: none;
+        align-items: left;
+        font-family: "Press Start 2P", sans-serif;
+        margin-left: 0px;
+    }
+
+    nav li {
+        margin-left: 0px;
+        padding: 2rem;
+        display: inline;
+        color: black;
+    }
+
+    nav li .active {
+        color: rgb(42, 59, 110);
+    }
+
+    a:hover {
+        color: rgb(42, 59, 110);
+    }
+
+    #post-title {
+        text-align: center;
+        padding-bottom: 0.5rem;
+    }
+
+    #post-title h2 {
+        font-size: larger !important;
+        line-height: 1;
+    }
+
+    div {
+        margin-top: 0px !important;
+    }
+
+    hr {
+        border: dashed yellow 0.1rem;
+        border-inline-width: 5em;
+        margin-bottom: 0.5rem;
+    }
+
+    #main-content {
+        text-align: left;
+        line-height: 1.5;
+    }
+
+    #post-timestamp {
+        padding-bottom: 0.25rem;
+        color: rgb(42, 59, 110);
+    }
+
+    .social-icons{
+        color:black;
+        font-size: x-large;
+        text-align: end;
+        margin-right: 2.5rem;
+    }
+    .social-icons a:hover{
+        color: rgb(42, 59, 110);
+    }
