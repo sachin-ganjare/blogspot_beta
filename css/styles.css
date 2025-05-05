@@ -10,7 +10,7 @@
         /* Classic neon green for a retro gaming feel */
         background-color: #000;
         text-align: center;
-        background-image: url('/img/background.jpg');
+        background-image: url('img/background.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
