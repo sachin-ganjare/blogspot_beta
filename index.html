@@ -12,24 +12,36 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css">
+    <script src="javascript/script.js"></script>
     <title>Sachin Ganjare</title>
 </head>
 
 <body>
-    <script> window.alert("This site is underconstruction.")</script>
-    <div class="social-icons">
-        <a href="http://instagram.com/sachinganjare_" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram"></i></a>
-        <a href="http://facebook.com/ganjaresachin" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-facebook"></i></a>
-       <a href="http://twitter.com/sachinganjare" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-x-twitter"></i></a>
-       <a href="http://linkedin.com/sachinganjare" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+    <div id="cloud-background">
+        <div class="cloud" style="width: 300px; height: 100px; top: 20%; left: 10%;"></div>
+        <div class="cloud" style="width: 250px; height: 80px; top: 50%; left: 30%;"></div>
+        <div class="cloud" style="width: 150px; height: 70px; top: 50%; left: 30%;"></div>
+        <div class="cloud" style="width: 300px; height: 70px; top: 10%; left: 70%;"></div>
+        <div class="cloud" style="width: 300px; height: 70px; top: 50%; left: 70%;"></div>
     </div>
+    <div class="social-icons">
+        <a href="http://instagram.com/sachinganjare_" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-square-instagram"></i></a>
+        <a href="http://facebook.com/ganjaresachin" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-square-facebook"></i></a>
+        <a href="http://twitter.com/sachinganjare" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-square-x-twitter"></i></a>
+        <a href="http://linkedin.com/sachinganjare" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <div id="menu-toggle">☰</div>
     <div id="front">
         <header>
             <img src="img/user.png" width="50px" height="50px" alt="User Image">
             <h1>HELLO, I'M SACHIN</h1>
             <p>A Passionate Computer Engineer</p>
         </header>
-        <nav>
+        <nav id="nav" class="hidden">
             <ul>
                 <li><a href="#" class="active">Home</a></li>
                 <li><a href="#">Posts</a></li>
@@ -40,12 +52,12 @@
         </nav>
         <br>
         <div id="main-content">
-            <section id="post-title">
+            <section id="page-title">
                 <h2>About Me</h2>
             </section>
             <hr>
-            <section id="post-timestamp">🕝 Last Updated: 26.01.01</section>
-            <section id="post-body">
+            <section id="page-timestamp">🕝 Last Updated: 26.01.01</section>
+            <section id="page-body">
                 <h3>Who am i?</h3>
                 I'm a Computer Science and Engineering student with a strong passion for solving real-world problems
                 through technology. I focus on software development, system design, and artificial intelligence, and I
@@ -56,7 +68,7 @@
                 <br>
 
             </section>
-            <section id="post-comments"></section>
+            <section id="page-comments"></section>
         </div>
 
         <footer> Theme by Sachin Ganjare &copy; 2025</footer>
