@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang='en' b:layoutsVersion='3' xmlns='http://www.w3.org/1999/xhtml'
+  xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data'
+  xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+  <head>
+    <meta charset='UTF-8' />
+    <meta content='width=device-width, initial-scale=1.0, minimum-scale=1,maximum-scale=1'
+      name='viewport' />
+
+    <title>
+      <data:blog.title />
+    </title>
+<b:if cond='!data:view.isLayoutMode'>
+  
+    <b:skin><![CDATA[
+
+    <!-- CSS code -->
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    }
+
+    html{
+    overflow-x:hidden;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+    }
+
+    img{
+    max-width:100%;
+    }
+
+    a{
+    color:inherit;
+    text-decoration:none;
+    }
+    .section, .widget {
+          margin:0;
+          padding:0;
+    }
+
+    .widget li, li{
+    margin:0;
+    padding:0;
+   text-indent:0;
+    }
+
+
+    ]]></b:skin>
+</b:if>
+
+<b:if cond='data:view.isLayoutMode'>
+  <b:template-skin><![CDATA[
+
+<!-- CSS code to style Layout options ---!>
+
+]]></b:template-skin>
+
+</b:if>
+    
+  </head>
+
+  <body>
+
+    <!-- Reserved for Header -->
+    <header id='header'>
+      <b:section id='header-area' class='header' name="Header Section" maxwidgets="2" showaddelement="yes">
+      </b:section>
+    </header>
+
+
+    <!-- Content Wrapper -->
+    <div class='content-wrapper'>
+
+
+      <!-- Main area blog posts -->
+      <main>
+        <!-- Reserved for Section and widget for blog posts tag-->
+        <b:section id='main' class='main' maxwidgets="1" showaddelement="no">
+
+          <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1'>
+
+          </b:widget>
+
+        </b:section>
+
+      </main>
+
+
+      <!-- Reserved Area for Sidebar -->
+
+      <aside>
+
+        <b:section id="sidebar" class="sidebar" showaddelement="yes">
+
+        </b:section>
+
+      </aside>
+
+
+    </div>
+
+
+    <!-- Reserved for Footer -->
+
+    <footer>
+
+      <b:section id='footer' class='footer' showaddelement="yes">
+
+        <!-- Footer widgets -->
+
+      </b:section>
+
+    </footer>
+
+
+  </body>
+
+</html>
