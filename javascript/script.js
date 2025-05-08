@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+    alert("This is a tentative view (frontend) of blogger theme to be uploaded. We're working hard to make this blog available");
     const menuToggle = document.getElementById('menu-toggle');
     const menu = document.getElementById('nav');
 
